@@ -1,24 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gaadh-haye</title>
     <link rel="stylesheet" href="./amaan.css">
 </head>
+
 <body>
-   <header>
-    <div class="logo">Gaadh-Haye</div>
-    <nav class="navbar">
-        <li class="nav-item">
-            <a href="#home">home</a></li>
-        <li class="nav-item">
-            <a href="#m/magaalooyinka">m/magaalooyinka</a></li>
-        <li class="nav-item">
-            <a href="#h/gobal">h/gobal</a></li>
-        <li class="nav-item">
-            <a href="#h/deegaan">h/deegaan</a></li>
-    </nav>
-   </header> 
+    <header>
+        <div class="logo">Gaadh-Haye</div>
+        <nav class="navbar">
+            <li class="nav-item">
+                <a href="#home">home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#m/magaalooyinka">m/magaalooyinka</a>
+            </li>
+            <li class="nav-item">
+                <a href="#h/gobal">h/gobal</a>
+            </li>
+            <li class="nav-item">
+                <a href="#h/deegaan">h/deegaan</a>
+            </li>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>gaadh-haye</h1>
+        <p>gaadh-haye waa system amni oo lagu diwaan galiyo danbiyada ka dhaca dalka oodhan <br>
+            waxaa arki kara oo kaliya cidda ku shaqada leh looma ogola qof kale.</p>
+        <div class="img">
+            <img src="./ll.jpg" alt="">
+        </div>
+    </section>
+
+    <div class="form">
+        <form>
+            <fieldset>
+                <legend>buuxi foomka danbiilaha</legend>
+                <label for="station">saldhiga laga buuxiyay:</label>
+                <input type="text" id="station" name="station" placeholder="saldhiga laga buuxiyay..." autocomplete="on" required>
+                <label for="name">Magaca oo sadaxan:</label>
+                <input type="text" id="name" name="name" placeholder="magaca oo sadaxan" autocomplete="on" required>
+                <label for="location">Goobta uu danbiga ka dhacay:</label>
+                <input type="text" id="location" name="location" placeholder="goobta uu danbiga ka dhacay"
+                    autocomplete="on" required>
+                <label for="date">Taariikhda uu danbiga ka dhacay:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="place">meesha uu ku dhashay:</label>
+                <input type="text" id="place" name="place" placeholder="meesha uu ku dhashay" autocomplete="on"
+                    required>
+                <label for="name">magaca hooyadii:</label>
+                <input type="text" id="name" name="name" placeholder="magaca hooyadii" autocomplete="on" required>
+                <label for="image">sawir ka qaad:</label>
+                <input type="file" id="image" name="image" accept="image/*" required>
+                <label for="phone">teleefankiisa</label>
+                <input type="tel" id="phone" name="phone" placeholder="teleefankiisa" autocomplete="on" required>
+                <label for="image">sawirka aqoonsigiisa</label>
+                <input type="file" id="image" name="image" accept="image/*" required>
+                <label for="details">Faahfaahinta:</label>
+                <textarea id="details" name="details" placeholder="Faahfaahinta"></textarea>
+                <button type="reset">Tirtir</button>
+                <button type="submit">dir</button>
+                <p></p>
+            </fieldset>
+        </form>
+    </div>
+
+    <script>
+      
+    </script>
 </body>
+
 </html>
